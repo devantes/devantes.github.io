@@ -1,7 +1,119 @@
-/* Your Website Styles */
+body {	
+background-color: rgb(255, 255, 255);
 
 
-/* Show Grid */
+}
+
+span > a {
+	font-family: 'Oswald', sans-serif;
+	float: right;
+	margin-right: 2%;
+	margin-top: 1.5%;
+	text-decoration: none;
+	color: #033a5d;
+	font-size: 1.5em;
+}
+a:hover {
+	font-family: 'Carrois Gothic SC', sans-serif;
+	background: rgba(45, 45, 45, 0.5);
+
+}
+
+img {
+	width: 45em;
+	height:45em;
+	float: right;
+position: relative;
+
+	top: -50em;
+	left: 1%;
+	-webkit-box-reflect: below 0
+    -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0.5, transparent), to(white)); 
+
+}
+
+.span_1 img {
+	display: none;
+}
+
+.who {
+
+	margin-top: -3.5em;
+	font-size: 4em;
+	line-height: 5.25em;
+	white-space: pre;
+
+}
+
+
+article, section {
+	float: left;
+	display: inline;
+	background: rgba(237, 238, 240, 0.9);
+}
+
+article {
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
+
+p {
+	font-family: 'Carrois Gothic SC', sans-serif;
+line-height: 150%;
+text-align: left;
+text-indent: 5%;
+
+}
+
+h3 {
+	font-family: 'Archivo Narrow', sans-serif;
+	text-transform: capitalize;
+	color: #99050e;
+	font-size: 1.5em;
+}
+
+h2 {
+	font-family: 'Archivo Narrow', sans-serif;
+	text-transform: capitalize;
+	color: #2d2d2d ;
+	font-size: 1.3em;
+}
+
+li {
+	font-family: 'Carrois Gothic SC', sans-serif;
+display: block;
+white-space: pre;
+
+}
+
+
+span {
+
+	float: right;
+	
+}
+
+
+.about {
+
+
+	text-indent: 5px;
+}
+
+.info {
+	float: left;
+	background: rgba(237, 238, 240, 0.9);
+	border: #99050e;
+margin-top: 40px;
+position: relative;
+}
+
+
+
+
+
+
+
 .showgrid {
-	background: url("../img/grid-bg.png") repeat-y;
+	background: url("../img/grid-bg.png");
 }
